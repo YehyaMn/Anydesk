@@ -1,3 +1,5 @@
+@echo off
+
 del %programdata%\AnyDesk\*.conf
 taskkill /IM Anydesk.exe /F
 net stop AnyDesk
